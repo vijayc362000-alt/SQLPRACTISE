@@ -31,7 +31,7 @@ desc Vijay_final
 select * from Vijay_final
 where name ='Vijay';
 
-------------------------------
+------------------------------updated on 24----------
 
 
 
