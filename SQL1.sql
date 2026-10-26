@@ -34,5 +34,24 @@ where name ='Vijay';
 ------------------------------updated on 24----------
 
 
+create database payments
+
+use payments
+
+create table transactions (ID int primary key, name varchar(20),account varchar(20),payment varchar(30),
+amount int ,location varchar(30))
+
+INSERT INTO transactions VALUES
+(1, 'Arun',  'Savings', 'Deposit',10000, 'Chennai'),
+(2, 'Priya', 'Savings', 'Deposit',20000, 'Chennai'),
+(3, 'Arun',  'Savings', 'Withdrawal',5000, 'Chennai'),
+(4, 'Kumar', 'Current', 'Deposit',50000, 'Madurai'),
+(5, 'Priya', 'Savings', 'Withdrawal',3000, 'Chennai'),
+(6, 'Divya', 'Savings', 'Deposit',15000, 'Coimbatore'),
+(7, 'Arun',  'Savings', 'Deposit',8000, 'Chennai'),
+(8, 'Kumar', 'Current', 'Withdrawal',10000, 'Madurai'),
+(9, 'Divya', 'Savings', 'Deposit',25000, 'Coimbatore'),
+(10,'Priya', 'Savings', 'Deposit',12000, 'Chennai');
+
 
 
